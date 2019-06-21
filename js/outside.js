@@ -1,13 +1,13 @@
 $(document).ready(function(){  
   	$("#slideLeft").click(function(){ 
-   		$("#colors-hex").animate({left:'2100px'}),
+   		$("#colors-hex").animate({left:'110%'}),
    		$("#leftContent").fadeTo(100,1)
   		});
  	});
 
 $(document).ready(function(){ 
 	$("#leftback").click(function(){
-  		$("#colors-hex").animate({left:'30%'}),
+  		$("#colors-hex").animate({left:'50%'}),
    		$("#leftContent").fadeTo(100,0)
    	    });
    	});	
