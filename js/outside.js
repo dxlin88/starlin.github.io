@@ -7,7 +7,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){ 
 	$("#leftback").click(function(){
-  		$("#colors-hex").animate({left:'30%'}),
+  		$("#colors-hex").animate({left:'10%'}),
    		$("#leftContent").fadeTo(100,0)
    	    });
    	});	
