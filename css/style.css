@@ -189,8 +189,8 @@ h1.site-name{
 		background-origin: padding-box;
 		background-clip: border-box;
 	background-size: contain;
-	width: 31.25rem;
-	height: 35.937rem;
+	width: 31%;
+	height: auto;
 	position: absolute;
 	left: 50%;
 	top: 50%;
