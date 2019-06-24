@@ -468,7 +468,7 @@ transform: translateY(-50%);
 /*iPad pro 1366*1024 */
 @media screen and (orientation:portrait )and (max-width: 1020px) {
 .cellimg{
-    width: 10%;
+    width: 100%;
     height: auto;
 }
 
