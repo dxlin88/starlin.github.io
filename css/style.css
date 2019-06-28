@@ -475,7 +475,7 @@ transform: translateY(-50%);
 
 @media screen and (orientation:landscape )and (max-width: 960px) {
 .cellimg{
-    width: 70%;
+    width: 10%;
     height: auto;
     background-color: blue;
 }
