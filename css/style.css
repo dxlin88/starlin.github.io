@@ -466,14 +466,14 @@ transform: translateY(-50%);
 }
 
 /*iPad pro 1366*1024 */
-@media screen and (orientation:portrait )and (max-width: 1020px) {
+@media screen and (orientation:portrait )and (max-width: 640px) {
 .cellimg{
     width: 100%;
     height: auto;
     background-color: pink;
 }
 
-@media screen and (orientation:landscape )and (max-width: 960px) {
+@media screen and (orientation:landscape )and (max-width: 640px) {
 .cellimg{
     width: 70%;
     height: auto;
