@@ -490,7 +490,9 @@ transform: translateY(-50%);
 /* Under iPad 1024*768 */
 @media screen and (orientation:portrait )and (max-width: 1000px) {
 .cellimg{
-    width: 100%;
+    width: 70%;
+	margin-left:15%;
     height: auto;
+	background:yellow;
 }
 
