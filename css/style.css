@@ -484,6 +484,7 @@ transform: translateY(-50%);
 	margin-left:15%;
     height: auto;
     background-color: red;
+	}
 }
 
 
@@ -494,5 +495,6 @@ transform: translateY(-50%);
 	margin-left:15%;
     height: auto;
 	background:yellow;
+	}
 }
 
