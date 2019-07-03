@@ -465,30 +465,19 @@ transform: translateY(-50%);
     width: 50%;
 }
 
-/*iPad pro 1366*1024 */
-@media screen and (orientation:portrait )and (max-width: 640px) {
+/*iPad pro 1366*1024 & iPad*/
+@media screen and (orientation:portrait )and (min-width: 1000px) {
 .cellimg{
     width: 100%;
     height: auto;
     background-color: red;
 }
 
-@media screen and (orientation:landscape )and (max-width: 960px) {
-.cellimg{
-    width: 10%;
-    height: auto;
-    background-color: blue;
-}
 
-/*iPad 1024*768 
-@media screen and (orientation:portrait )and (max-width: 1020px) {
+/* Under iPad 1024*768 */
+@media screen and (orientation:portrait )and (max-width: 1000px) {
 .cellimg{
     width: 100%;
     height: auto;
 }
 
-@media screen and (orientation:landscape )and (max-width: 1020px) {
-.cellimg{
-    width: 100%;
-    height: auto;
-}*/
