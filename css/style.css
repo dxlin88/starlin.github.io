@@ -488,11 +488,12 @@ transform: translateY(-50%);
 header{
 	display:none;
 	}
-footer{
+	
+.footer{
 	dispaly:none;
 	}
-#slideLeft,#slideRight,#slideTop
-#slideDown{
+	
+#slideLeft{
 	dispaly:none;
 	}
 	
