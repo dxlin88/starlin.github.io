@@ -491,7 +491,8 @@ header{
 footer{
 	dispaly:none;
 	}
-#leftContent{
+#slideLeft,#slideRight,#slideTop
+#slideDown{
 	dispaly:none;
 	}
 	
