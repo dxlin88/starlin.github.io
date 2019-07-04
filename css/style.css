@@ -485,6 +485,16 @@ transform: translateY(-50%);
     height: auto;
     background-color: red;
 	}
+header{
+	display:none;
+	}
+footer{
+	dispaly:none;
+	}
+#leftContent{
+	dispaly:none;
+	}
+	
 }
 
 
