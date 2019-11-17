@@ -68,7 +68,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){  
   	$("#slideRight").click(function(){ 
-   		$("#colors-hex").animate({right:'2100px'}),
+   		$("#colors-hex").animate({left:'-2100px'}),
    		$("#leftContent").fadeTo(100,1)
   		});
  	});
