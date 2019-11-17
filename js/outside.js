@@ -14,6 +14,7 @@ $(document).ready(function(){
 
 
 /*Allbum click*/
+
 	/*MagicWave*/
 $(document).ready(function(){ 
 	$("#magica-wave").click(function(){
@@ -64,3 +65,20 @@ $(document).ready(function(){
    		$("#overlay-icenight").fadeOut(0)
    	    });
    	});	
+
+$(document).ready(function(){  
+  	$("#slideRight").click(function(){ 
+   		$("#colors-hex").animate({right:'-2100px'}),
+   		$("#leftContent").fadeTo(100,1)
+  		});
+ 	});
+
+$(document).ready(function(){ 
+	$("#RightBack").click(function(){
+  		$("#colors-hex").animate({right:'50%'}),
+   		$("#leftContent").fadeTo(100,0)
+   	    });
+   	});	
+
+
+/*Allbum click*/
