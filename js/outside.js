@@ -1,4 +1,4 @@
-$(document).ready(function(){  
+/*$(document).ready(function(){  
   	$("#slideLeft").click(function(){ 
    		$("#colors-hex").animate({left:'2100px'}),
    		$("#leftContent").fadeTo(100,1)
@@ -67,7 +67,7 @@ $(document).ready(function(){
    	});	
 
 $(document).ready(function(){  
-  	$("#slideRight").click(function(){ 
+  	$("#slideLeft").click(function(){ 
    		$("#colors-hex").animate({left:'2100px'}),
    		$("#leftContent").fadeTo(100,1)
   		});
