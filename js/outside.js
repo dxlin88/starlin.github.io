@@ -74,11 +74,8 @@ $(document).ready(function(){
  	});
 
 $(document).ready(function(){ 
-	$("#RightBack").click(function(){
-  		$("#colors-hex").animate({right:'50%'}),
+	$("#leftback").click(function(){
+  		$("#colors-hex").animate({left:'50%'}),
    		$("#leftContent").fadeTo(100,0)
    	    });
-   	});	
-
-
-/*Allbum click*/
+   	});
