@@ -10,7 +10,7 @@ $(document).ready(function(){
   		$("#colors-hex").animate({left:'50%'}),
    		$("#leftContent").fadeTo(100,0)
    	    });
-   	});	
+   	});	*/
 
 
 /*Allbum click*/
@@ -67,8 +67,8 @@ $(document).ready(function(){
    	});	
 
 $(document).ready(function(){  
-  	$("#slideLeft").click(function(){ 
-   		$("#colors-hex").animate({left:'2100px'}),
+  	$("#slideRight").click(function(){ 
+   		$("#colors-hex").animate({left:'200px'}),
    		$("#leftContent").fadeTo(100,1)
   		});
  	});
