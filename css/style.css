@@ -135,6 +135,12 @@ h1.site-name{
 	transition-delay: 0s;
 }
 
+.colors-hex-container #topContent.show{
+	visibility: visible;
+	opacity: 0;
+	transition-delay: 0s;
+}
+
 .grid-x {
 	display: grid;     /**/
 	grid-template-columns: 30% 30% ;
@@ -223,14 +229,14 @@ h1.site-name{
 }
 
 .nav-left{
-	left: -7.8125rem;
+	left: -8.8125rem;
 	top: 50%;
 	transform: translateY(-50%);	
 }
 a.nav-left:hover{color: blue}
 
 .nav-right{
-	right: -7.5125rem;
+	right: -8.8125rem;
 	top: 50%;
 	transform: translateY(-50%);
 }
@@ -409,6 +415,20 @@ color: rgba(100,100,100,1);
 background-color: rgba(152,152,152,0.4);
 left: 1rem;
 top: 50%;
+transform: translateY(-50%);
+}
+
+.toBottom{
+position: absolute;
+text-transform: uppercase;
+font-size: 2.5rem;
+text-align: right;
+letter-spacing: 3rem;
+font-weight: 10；
+color: rgba(100,100,100,1);
+background-color: rgba(152,152,152,0.4);
+left: 50%;
+top: 90%;
 transform: translateY(-50%);
 }
 

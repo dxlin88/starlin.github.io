@@ -1,6 +1,7 @@
+/*Ny Shot click*/
 $(document).ready(function(){  
   	$("#slideLeft").click(function(){ 
-   		$("#colors-hex").animate({left:'125%'}),
+   		$("#colors-hex").animate({left:'135%'}),
    		$("#leftContent").fadeTo(100,1)
   		});
  	});
@@ -12,8 +13,6 @@ $(document).ready(function(){
    	    });
    	});	
 
-
-/*Allbum click*/
 	/*MagicWave*/
 $(document).ready(function(){ 
 	$("#magica-wave").click(function(){
@@ -65,10 +64,12 @@ $(document).ready(function(){
    	    });
    	});	
 
+
+/*My Talk  click*/
 $(document).ready(function(){  
     $("#slideRight").click(function(){ 
         $("#leftContent").hide(),
-        $("#colors-hex").animate({left:'-500px'}),
+        $("#colors-hex").animate({left:'-45%'}),
         $("#rightContent").fadeTo(100,1)
         });
     });
@@ -80,7 +81,78 @@ $(document).ready(function(){
         });
     }); 
 
-/*Color Tour click*/
+  /*Lectrue4*/
+$(document).ready(function(){ 
+  $("#lectrue4").click(function(){
+      $("#overlay-lectrue4").fadeTo(0,1)
+        });
+    }); 
+
+$(document).ready(function(){ 
+  $("#closeX-lectrue4").click(function(){
+      $("#overlay-lectrue4").fadeOut(0)
+        });
+    }); 
+
+  /*Lectrue1*/
+$(document).ready(function(){ 
+  $("#lectrue1").click(function(){
+      $("#overlay-lectrue1").fadeIn(0)
+        });
+    }); 
+
+$(document).ready(function(){ 
+  $("#closeX-lectrue1").click(function(){
+      $("#overlay-lectrue1").fadeOut(0)
+        });
+    }); 
+
+  /*Lectrue2*/
+$(document).ready(function(){ 
+  $("#lectrue2").click(function(){
+      $("#overlay-lectrue2").fadeIn(0)
+        });
+    }); 
+
+$(document).ready(function(){ 
+  $("#closeX-lectrue2").click(function(){
+      $("#overlay-lectrue2").fadeOut(0)
+        });
+    }); 
+
+  /*lectrue3*/
+$(document).ready(function(){ 
+  $("#lectrue3").click(function(){
+      $("#overlay-lectrue3").fadeIn(0)
+        });
+    }); 
+$(document).ready(function(){ 
+  $("#closeX-lectrue3").click(function(){
+      $("#overlay-lectrue3").fadeOut(0)
+        });
+    }); 
+
+
+
+/*My Story  click*/
+
+$(document).ready(function(){  
+    $("#slideTop").click(function(){ 
+        $("#leftContent").hide(),
+        $("#rightContent").hide(),
+        $("#colors-hex").animate({top:'-45%'}),
+        $("#topContent").fadeTo(100,1)
+        });
+    });
+
+$(document).ready(function(){ 
+    $("#topback").click(function(){
+        $("#colors-hex").animate({top:'50%'}),
+        $("#topContent").fadeTo(100,0)
+        });
+    }); 
+
+
   /*Lectrue4*/
 $(document).ready(function(){ 
   $("#lectrue4").click(function(){
