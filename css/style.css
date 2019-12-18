@@ -162,7 +162,7 @@ h1.site-name{
 }
 
 .colors-hex-container #topContent{
-	padding-left: 14.8125rem;
+	padding-left: 6.25rem;
 }
 
 .colors-hex-container #bottomContent{
@@ -202,7 +202,7 @@ h1.site-name{
 		background-origin: padding-box;
 		background-clip: border-box;
 	background-size: contain;
-	width: 30%;
+	/*width: 30%;*/
 	height: auto;
 	position: absolute;
 	left: 50%;
@@ -226,6 +226,7 @@ h1.site-name{
 	text-align: left;
 	letter-spacing: .1875rem;
 	font-weight: 600;
+
 }
 
 .nav-left{
@@ -233,6 +234,7 @@ h1.site-name{
 	top: 50%;
 	transform: translateY(-50%);	
 }
+
 a.nav-left:hover{color: blue}
 
 .nav-right{
@@ -392,13 +394,13 @@ height: auto;
 
 .toRight{
 position: absolute;
-text-transform: uppercase;
+/*text-transform: uppercase;
 font-size: 3rem;
 text-align: left;
 letter-spacing: .1875rem;
 font-weight: 10;
 color: rgba(100,100,100,1);
-background-color: rgba(152,152,152,0.4);
+background-color: rgba(152,152,152,0.4);*/
 right: 1rem;
 top: 50%;
 transform: translateY(-50%);
@@ -406,13 +408,12 @@ transform: translateY(-50%);
 
 .toLeft{
 position: absolute;
-text-transform: uppercase;
-font-size: 3rem;
+/*font-size: 3rem;
 text-align: left;
 letter-spacing: .1875rem;
 font-weight: 10;
 color: rgba(100,100,100,1);
-background-color: rgba(152,152,152,0.4);
+ackground-color: rgba(152,152,152,0);*/
 left: 1rem;
 top: 50%;
 transform: translateY(-50%);
@@ -420,15 +421,15 @@ transform: translateY(-50%);
 
 .toBottom{
 position: absolute;
-text-transform: uppercase;
+/*text-transform: uppercase;
 font-size: 2.5rem;
-text-align: right;
+text-align: center;
 letter-spacing: 3rem;
 font-weight: 10；
 color: rgba(100,100,100,1);
-background-color: rgba(152,152,152,0.4);
-left: 50%;
-top: 90%;
+background-color: rgba(152,152,152,0.4);*/
+left: 46%;
+top: 92%;
 transform: translateY(-50%);
 }
 
@@ -478,7 +479,8 @@ transform: translateY(-50%);
 }
 
 #closeX-onemen,#closeX-icenight,#closeX-magicwave,#closeX-alaskagas,
-#closeX-lectrue1,#closeX-lectrue2,#closeX-lectrue3,#closeX-lectrue4{
+#closeX-lectrue1,#closeX-lectrue2,#closeX-lectrue3,#closeX-lectrue4,
+#closeX-LightHair,#closeX-ShredYourSecret,#closeX-WhiteBear,#closeX-StopHere{
 	position: absolute;
 	top: -1.875rem;
 	right: -1.875rem;

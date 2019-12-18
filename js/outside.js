@@ -1,8 +1,8 @@
-/*Ny Shot click*/
+/*My Shot */
 $(document).ready(function(){  
   	$("#slideLeft").click(function(){ 
-   		$("#colors-hex").animate({left:'135%'}),
-   		$("#leftContent").fadeTo(100,1)
+   		$("#colors-hex").animate({left:'120%'}),
+   		   $("#leftContent").fadeTo(100,1)
   		});
  	});
 
@@ -153,53 +153,53 @@ $(document).ready(function(){
     }); 
 
 
-  /*Lectrue4*/
+  /*WhiteBear*/
 $(document).ready(function(){ 
-  $("#lectrue4").click(function(){
-      $("#overlay-lectrue4").fadeTo(0,1)
+  $("#WhiteBear").click(function(){
+      $("#overlay-WhiteBear").fadeTo(0,1)
         });
     }); 
 
 $(document).ready(function(){ 
-  $("#closeX-lectrue4").click(function(){
-      $("#overlay-lectrue4").fadeOut(0)
+  $("#closeX-WhiteBear").click(function(){
+      $("#overlay-WhiteBear").fadeOut(0)
         });
     }); 
 
-  /*Lectrue1*/
+  /*StopHere*/
 $(document).ready(function(){ 
-  $("#lectrue1").click(function(){
-      $("#overlay-lectrue1").fadeIn(0)
-        });
-    }); 
-
-$(document).ready(function(){ 
-  $("#closeX-lectrue1").click(function(){
-      $("#overlay-lectrue1").fadeOut(0)
-        });
-    }); 
-
-  /*Lectrue2*/
-$(document).ready(function(){ 
-  $("#lectrue2").click(function(){
-      $("#overlay-lectrue2").fadeIn(0)
+  $("#StopHere").click(function(){
+      $("#overlay-StopHere").fadeIn(0)
         });
     }); 
 
 $(document).ready(function(){ 
-  $("#closeX-lectrue2").click(function(){
-      $("#overlay-lectrue2").fadeOut(0)
+  $("#closeX-StopHere").click(function(){
+      $("#overlay-StopHere").fadeOut(0)
         });
     }); 
 
-  /*lectrue3*/
+  /*LightHair*/
 $(document).ready(function(){ 
-  $("#lectrue3").click(function(){
-      $("#overlay-lectrue3").fadeIn(0)
+  $("#LightHair").click(function(){
+      $("#overlay-LightHair").fadeIn(0)
+        });
+    }); 
+
+$(document).ready(function(){ 
+  $("#closeX-LightHair").click(function(){
+      $("#overlay-LightHair").fadeOut(0)
+        });
+    }); 
+
+  /*ShredYourSecret*/
+$(document).ready(function(){ 
+  $("#ShredYourSecret").click(function(){
+      $("#overlay-ShredYourSecret").fadeIn(0)
         });
     }); 
 $(document).ready(function(){ 
-  $("#closeX-lectrue3").click(function(){
-      $("#overlay-lectrue3").fadeOut(0)
+  $("#closeX-ShredYourSecret").click(function(){
+      $("#overlay-ShredYourSecret").fadeOut(0)
         });
     }); 
