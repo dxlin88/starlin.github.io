@@ -203,3 +203,27 @@ $(document).ready(function(){
       $("#overlay-ShredYourSecret").fadeOut(0)
         });
     }); 
+
+/*We Chart*/
+$(document).ready(function(){ 
+  $("#Wechart").click(function(){
+      $("#overlay-Wechart").fadeIn(0)
+        });
+    }); 
+$(document).ready(function(){ 
+  $("#closeX-Wechart").click(function(){
+      $("#overlay-Wechart").fadeOut(0)
+        });
+    }); 
+
+/*  Contact Me  */
+$(document).ready(function(){ 
+  $("#ContactMe").click(function(){
+      $("#overlay-ContactMe").fadeIn(0)
+        });
+    }); 
+$(document).ready(function(){ 
+  $("#closeX-ContactMe").click(function(){
+      $("#overlay-ContactMe").fadeOut(0)
+        });
+    }); 

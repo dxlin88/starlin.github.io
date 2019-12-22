@@ -433,6 +433,20 @@ top: 92%;
 transform: translateY(-50%);
 }
 
+.play{
+position: absolute;
+left: 48%;
+top: 37%;
+transform: translateY(-50%);
+}
+
+.play1{
+position: absolute;
+left: 47%;
+top: 69%;
+transform: translateY(-50%);
+}
+
 .reveal-overlay{
 	position: fixed;
 	top: 0px;
@@ -480,7 +494,8 @@ transform: translateY(-50%);
 
 #closeX-onemen,#closeX-icenight,#closeX-magicwave,#closeX-alaskagas,
 #closeX-lectrue1,#closeX-lectrue2,#closeX-lectrue3,#closeX-lectrue4,
-#closeX-LightHair,#closeX-ShredYourSecret,#closeX-WhiteBear,#closeX-StopHere{
+#closeX-LightHair,#closeX-ShredYourSecret,#closeX-WhiteBear,#closeX-StopHere,
+#closeX-Wechart,#closeX-ContactMe{
 	position: absolute;
 	top: -1.875rem;
 	right: -1.875rem;
