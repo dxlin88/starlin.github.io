@@ -59,12 +59,12 @@ h1,div {
 
 
 
-.mobile-header{
+/*.mobile-header{
 	padding: 2.1875rem;
 	text-align: center;
 	position: absolute;
 	width: 100;
-}
+}*/
 
 .top-bar{
 	background-color: transparent;
@@ -524,20 +524,67 @@ transform: translateY(-50%);
     width: 50%;
 }
 
-/*iPad pro 1366*1024 */
-@media screen and (orientation:portrait )and (max-width: 1020px) {
-.cellimg{
-    width: 10%;
-    height: auto;
+.moblie-footer{
+	display:none;
 }
 
-@media screen and (orientation:landscape )and (max-width: 960px) {
-.cellimg{
+/*For Moblie*/
+@media screen and (max-width: 520px) {
+	.top-bar-left{
+		width: 100%;
+	}
+	.site-name{
+		text-align: right;
+	}
+
+	.top-bar-right,.nav-top,.nav-left,.nav-right,.nav-bottom,.desktop-footer{
+   		display: none;
+	}
+
+	.front-hex{
+		width: 50%
+		height:auto;
+	}
+
+	.moblie-footer{
+		width: 100%;
+		height: 50%;
+		display: block;
+		background: red;
+	}
+	
+	ul.moblie-list{
+	list-style-type: none;
+	margin: 0;
+	width: auto;
+   }
+
+   .moblie-tip{
+	position: relative;
+	width: 20%;
+	height: auto;
+	/*display: inline-block;
+	font-weight: 700;*/
+	float: right;
+}	
+/*	.icon.smallfooter{
+	background:   no-repeat center center;
+	background-size: contain;
+	width: 2.5rem;
+	height: 2.5rem;
+	margin-right: .625rem;
+}*/
+
+
+
+}
+/*@media screen and (orientation:landscape )and (max-width: 960px) {
+.cellimg{ 
     width: 70%;
     height: auto;
 }
 
-/*iPad 1024*768 
+iPad 1024*768 
 @media screen and (orientation:portrait )and (max-width: 1020px) {
 .cellimg{
     width: 100%;
